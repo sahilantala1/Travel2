@@ -1,0 +1,42 @@
+.maincontainer {
+  padding: 50px;
+  /* background: var(--secondary-color); */
+  position: relative;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.createtourform {
+  color: black;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.innerdiv {
+  background: var(--secondary-color);
+  padding: 40px;
+}
+
+label {
+  font-weight: 700 !important;
+}
+
+.createtourform input {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.8rem;
+  color: var(--heading-color);
+}
+
+.submitbtn {
+  text-align: center;
+  padding-top: 20px;
+}
+.submitbtn button {
+  background: var(--heading-color) !important;
+  color: #fff !important;
+  padding: 10px;
+  border-radius: 20px;
+}
+textarea {
+  width: 100%;
+}

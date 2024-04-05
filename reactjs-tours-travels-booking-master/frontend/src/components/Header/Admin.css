@@ -1,0 +1,37 @@
+.userHead {
+  color: black;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.user-list li > div {
+  padding: 10px;
+  flex: 1;
+  display: inline;
+  background-color: #f0f0f0;
+  color: black; /* Text color */
+  font-weight: bold; /* Bold font */
+}
+
+.user-list li > div:first-child {
+  flex-basis: 5%;
+  background-color: #f0f0f0;
+}
+
+.user-list li > div:not(:first-child) {
+  border-left: 1px solid #ccc;
+}
